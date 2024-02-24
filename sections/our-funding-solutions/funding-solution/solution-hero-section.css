@@ -1,5 +1,6 @@
 .solution-hero-section {
-  @apply w-full 
+  @apply section
+  w-full 
   min-h-screen 
   bg-light-gray 
   grid
