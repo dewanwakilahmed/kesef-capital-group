@@ -6,6 +6,10 @@ import type { ReactNode, FC } from 'react';
 // CSS Import
 import './globals.css';
 
+// Sections Imports
+import HeaderSection from '@/sections/HeaderSection';
+import FooterSection from '@/sections/FooterSection';
+
 const montserrat = Montserrat({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -20,7 +24,11 @@ interface RootLayoutProps {
 const RootLayout: FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang='en'>
-      <body className={montserrat.className}>{children}</body>
+      <body className={montserrat.className}>
+        <HeaderSection />
+        {children}
+        <FooterSection />
+      </body>
     </html>
   );
 };
