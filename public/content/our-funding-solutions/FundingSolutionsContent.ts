@@ -1,4 +1,4 @@
-const fundingSolutions = [
+const FundingSolutionsContent = [
   {
     id: 'merchant-cash-advance',
     name: 'Merchant Cash Advance',
@@ -143,4 +143,4 @@ const fundingSolutions = [
   },
 ];
 
-export default fundingSolutions;
+export default FundingSolutionsContent;
