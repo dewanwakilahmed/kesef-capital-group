@@ -3,7 +3,7 @@ const FundingSolutionsContent = [
     id: 'merchant-cash-advance',
     name: 'Merchant Cash Advance',
     intro:
-      'Welcome to Kesef Capital Group, your premier partner for alternative funding and financing solutions designed specifically for small businesses. In today’s fast-paced business environment, securing quick and flexible working capital is crucial for growth and success. Our Merchant Cash Advance (MCA) service is tailored to help your business flourish by providing immediate access to funds, ensuring you can focus on what you do best - running your business. With Kesef Capital Group, you’re not just getting a financial service; you’re gaining a partner committed to your business success.',
+      "Welcome to Kesef Capital Group, your premier partner for alternative funding and financing solutions designed specifically for small businesses. In today's fast-paced business environment, securing quick and flexible working capital is crucial for growth and success. Our Merchant Cash Advance (MCA) service is tailored to help your business flourish by providing immediate access to funds, ensuring you can focus on what you do best - running your business. With Kesef Capital Group, you're not just getting a financial service; you're gaining a partner committed to your business success.",
     whatIs:
       'A Merchant Cash Advance offers a swift and straightforward way for small businesses to gain access to funding. Unlike traditional business loans, an MCA provides you with capital in exchange for a percentage of your future credit card sales, making it an excellent funding option for businesses with high sales volumes.',
     howItWorks: [

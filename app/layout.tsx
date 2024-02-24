@@ -25,9 +25,9 @@ const RootLayout: FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang='en'>
       <body className={montserrat.className}>
-        <HeaderSection />
+        {/* <HeaderSection /> */}
         {children}
-        <FooterSection />
+        {/* <FooterSection /> */}
       </body>
     </html>
   );
