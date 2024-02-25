@@ -8,13 +8,14 @@ import FundingSolutionsContent from '@/public/content/our-funding-solutions/Fund
 
 // Section Imports
 import SolutionHeroSection from '@/sections/our-funding-solutions/funding-solution/SolutionHeroSection';
+import WhatIsFundingSolutionSection from '@/sections/our-funding-solutions/funding-solution/WhatIsFundingSolutionSection';
 
 const FundingSolutionPage = () => {
   // Find funding solution from URL for the page
   const url = usePathname();
   const solutionId = url.split('/').pop();
 
-  // Find funding sosolution from content
+  // Find funding solution from content
   const fundingSolution = FundingSolutionsContent.find(
     (solution) => solution.id === solutionId
   );
@@ -26,6 +27,10 @@ const FundingSolutionPage = () => {
   return (
     <main className={`funding-solution-page ${fundingSolution.id}`}>
       <SolutionHeroSection introduction={fundingSolution.intro} />
+      <WhatIsFundingSolutionSection
+        fundingSolutionName={fundingSolution.name}
+        whatIsFundingSolution={fundingSolution.whatIs}
+      />
       <div>Item 2</div>
     </main>
   );

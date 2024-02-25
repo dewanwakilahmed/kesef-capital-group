@@ -10,6 +10,7 @@ import './globals.css';
 import HeaderSection from '@/sections/HeaderSection';
 import FooterSection from '@/sections/FooterSection';
 
+// Font Import
 const montserrat = Montserrat({ subsets: ['latin'] });
 
 export const metadata: Metadata = {

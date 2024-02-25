@@ -1,0 +1,11 @@
+.what-is-funding-solution-section {
+  @apply section
+  section-bg-gradient;
+}
+
+.what-is-funding-solution-title {
+  @apply section-title;
+}
+
+.what-is-funding-solution-content {
+}
