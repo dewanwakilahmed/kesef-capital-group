@@ -10,6 +10,7 @@ import FundingSolutionsContent from '@/public/content/our-funding-solutions/Fund
 import SolutionHeroSection from '@/sections/our-funding-solutions/funding-solution/SolutionHeroSection';
 import WhatIsFundingSolutionSection from '@/sections/our-funding-solutions/funding-solution/WhatIsFundingSolutionSection';
 import HowFundingSolutionWorks from '@/sections/our-funding-solutions/funding-solution/HowFundingSolutionWorks';
+import BenefeitsOfFundingSolution from '@/sections/our-funding-solutions/funding-solution/BenefitsOfFundingSolution';
 
 const FundingSolutionPage = () => {
   // Find funding solution from URL for the page
@@ -36,7 +37,10 @@ const FundingSolutionPage = () => {
         fundingSolutionTitle={fundingSolution.name}
         howFundingSolutionWorksContent={fundingSolution.howItWorks}
       />
-      <div>Item 2</div>
+      <BenefeitsOfFundingSolution
+        fundingSolutionTitle={fundingSolution.name}
+        BenefitsOfFundingSolutionContent={fundingSolution.benefits}
+      />
     </main>
   );
 };
