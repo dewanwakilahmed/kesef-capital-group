@@ -20,11 +20,11 @@
   }
 
   .section-light {
-    @apply bg-gradient-to-tl from-neutral-300 to-neutral-100;
+    @apply bg-gradient-to-bl from-neutral-300 to-neutral-100;
   }
 
   .section-dark {
-    @apply bg-gradient-to-br from-neutral-500 to-neutral-300;
+    @apply bg-gradient-to-br from-neutral-600 to-neutral-400;
   }
 
   .section-title {
@@ -87,11 +87,11 @@
   }
 
   .card-light {
-    @apply bg-gradient-to-br from-neutral-200 to-neutral-100;
+    @apply bg-gradient-to-bl from-neutral-100 to-neutral-50;
   }
 
   .card-dark {
-    @apply bg-gradient-to-tl from-neutral-700 to-neutral-600;
+    @apply bg-gradient-to-br from-neutral-800 to-neutral-600;
   }
 
   .card-title {

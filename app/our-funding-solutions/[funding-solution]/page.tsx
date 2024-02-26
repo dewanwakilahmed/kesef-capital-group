@@ -49,11 +49,11 @@ const FundingSolutionPage = () => {
       <UseCasesOfFundingSolutionSection
         fundingSolutionTitle={fundingSolution.name}
         useCasesOfFundingSolutionContent={fundingSolution.useCases}
-      />
+      /> */}
       <ConsiderationsSection
         solutionTitle={fundingSolution.name}
         considerationsContent={fundingSolution.considerations}
-      /> */}
+      />
       <EligibilityCriteriaSection
         solutionTitle={fundingSolution.name}
         eligibilityCriteriaContent={fundingSolution.eligibilityCriteria}

@@ -7,9 +7,6 @@ import { Poppins } from 'next/font/google';
 // CSS Import
 import './considerations-section.css';
 
-// Font Import
-const lato = Poppins({ subsets: ['latin'], weight: '600' });
-
 interface ConsiderationsContentItem {
   title: string;
   description: string;
@@ -26,11 +23,9 @@ const ConsiderationsSection: FC<ConsiderationsProps> = ({
 }) => {
   return (
     <section className='considerations-section'>
-      <h1
-        className={`considerations-title ${lato.className}`}
-      >{`Considerations of ${solutionTitle}`}</h1>
+      <h1 className='considerations-section-title'>{`Considerations of ${solutionTitle}`}</h1>
 
-      <div className='considerations-content'>
+      <div className='considerations-section-content'>
         {considerationsContent.map((item, index) => (
           <div key={index} className='considerations-item'>
             <h2 className='considerations-item-title'>{item.title}</h2>

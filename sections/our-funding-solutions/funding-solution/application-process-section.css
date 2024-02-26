@@ -1,7 +1,6 @@
 .application-process-section {
   @apply section
-  section-light
-  bg-gradient-to-tr from-neutral-400 to-neutral-200;
+  section-light;
 }
 
 .application-process-section-title {

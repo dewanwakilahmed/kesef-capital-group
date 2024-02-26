@@ -1,17 +1,28 @@
 .considerations-section {
   @apply section
-  section-bg-gradient;
+  section-light;
 }
 
-.considerations-title {
-  @apply section-title;
+.considerations-section-title {
+  @apply section-title
+  section-title-light;
 }
 
-.considerations-content {
+.considerations-section-content {
+  @apply section-content;
+}
+
+.considerations-item {
+  @apply card
+  card-light;
 }
 
 .considerations-item-title {
+  @apply card-title
+  card-title-light;
 }
 
 .considerations-item-description {
+  @apply card-description
+  card-description-light;
 }
