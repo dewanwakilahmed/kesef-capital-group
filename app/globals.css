@@ -20,7 +20,7 @@
   }
 
   .section-light {
-    @apply bg-gradient-to-tr from-neutral-300 to-neutral-100;
+    @apply bg-gradient-to-tl from-neutral-300 to-neutral-100;
   }
 
   .section-dark {
@@ -44,7 +44,7 @@
   }
 
   .section-title-light {
-    @apply text-neutral-400;
+    @apply text-neutral-600;
   }
 
   .section-title-dark {
@@ -87,11 +87,11 @@
   }
 
   .card-light {
-    @apply bg-neutral-50;
+    @apply bg-gradient-to-br from-neutral-200 to-neutral-100;
   }
 
   .card-dark {
-    @apply bg-gradient-to-bl from-neutral-700 to-neutral-600;
+    @apply bg-gradient-to-tl from-neutral-700 to-neutral-600;
   }
 
   .card-title {
@@ -111,7 +111,7 @@
   }
 
   .card-title-light {
-    @apply text-neutral-600;
+    @apply text-neutral-800;
   }
 
   .card-title-dark {
