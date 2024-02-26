@@ -1,0 +1,10 @@
+.why-choose-kcg-section {
+  @apply section;
+}
+
+.why-choose-kcg-title {
+  @apply section-title;
+}
+
+.why-choose-kcg-content {
+}

@@ -15,6 +15,7 @@ import UseCasesOfFundingSolutionSection from '@/sections/our-funding-solutions/f
 import ConsiderationsSection from '../../../sections/our-funding-solutions/funding-solution/ConsiderationsSection';
 import EligibilityCriteriaSection from '@/sections/our-funding-solutions/funding-solution/EligibilityCriteriaSection';
 import ApplicationProcessSection from '@/sections/our-funding-solutions/funding-solution/ApplicationProcessSection';
+import WhyChooseKCGSection from '@/sections/our-funding-solutions/funding-solution/WhyChooseKCGSection';
 
 const FundingSolutionPage = () => {
   // Find funding solution from URL for the page
@@ -60,6 +61,10 @@ const FundingSolutionPage = () => {
       <ApplicationProcessSection
         solutionTitle={fundingSolution.name}
         applicationProcessContent={fundingSolution.applicationProcess}
+      />
+      <WhyChooseKCGSection
+        solutionTitle={fundingSolution.name}
+        whyChooseKCG={fundingSolution.whyChooseKCG}
       />
     </main>
   );

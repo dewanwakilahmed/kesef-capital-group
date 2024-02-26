@@ -138,7 +138,7 @@ const FundingSolutionsContent = [
           'Funds are deposited into your business account within 24 hours, ready for use.',
       },
     ],
-    whyChooseUs:
+    whyChooseKCG:
       'At Kesef Capital Group, we’re more than just a funding source; we’re your business ally. Our MCA solutions are designed with small businesses in mind, offering the flexibility, speed, and support you need to navigate your business’s financial landscape. With our straightforward application process, competitive advantages, and commitment to your success, partnering with Kesef Capital Group means choosing a path to growth and opportunity.',
   },
 ];
