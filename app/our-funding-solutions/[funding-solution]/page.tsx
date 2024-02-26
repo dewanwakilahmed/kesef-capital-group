@@ -53,11 +53,11 @@ const FundingSolutionPage = () => {
       <ConsiderationsSection
         solutionTitle={fundingSolution.name}
         considerationsContent={fundingSolution.considerations}
-      />
+      /> */}
       <EligibilityCriteriaSection
         solutionTitle={fundingSolution.name}
         eligibilityCriteriaContent={fundingSolution.eligibilityCriteria}
-      /> */}
+      />
       <ApplicationProcessSection
         solutionTitle={fundingSolution.name}
         applicationProcessContent={fundingSolution.applicationProcess}

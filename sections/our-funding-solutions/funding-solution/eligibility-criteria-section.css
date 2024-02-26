@@ -1,16 +1,28 @@
 .eligibility-criteria-section {
-  @apply section;
+  @apply section
+  section-dark;
 }
 
-.eligibility-criteria-title {
-  @apply section-title;
+.eligibility-criteria-section-title {
+  @apply section-title
+  section-title-dark;
 }
 
-.eligibility-criteria-content {
+.eligibility-criteria-section-content {
+  @apply section-content;
+}
+
+.eligibility-criteria-item {
+  @apply card
+  card-dark;
 }
 
 .eligibility-criteria-item-title {
+  @apply card-title
+  card-title-dark;
 }
 
 .eligibility-criteria-item-description {
+  @apply card-description
+  card-description-dark;
 }

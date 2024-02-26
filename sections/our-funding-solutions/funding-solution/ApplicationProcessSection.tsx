@@ -2,22 +2,18 @@
 
 // Import necessary modules
 import { FC } from 'react';
-import { Poppins } from 'next/font/google';
 
 // CSS Import
 import './application-process-section.css';
 
-// Font Import
-const lato = Poppins({ subsets: ['latin'], weight: '600' });
-
-interface ApplicationProcessContentItem {
+interface ApplicationProcessItem {
   title: string;
   description: string;
 }
 
 interface ApplicationProcessProps {
   solutionTitle: string;
-  applicationProcessContent: ApplicationProcessContentItem[];
+  applicationProcessContent: ApplicationProcessItem[];
 }
 
 const ApplicationProcessSection: FC<ApplicationProcessProps> = ({
@@ -26,9 +22,7 @@ const ApplicationProcessSection: FC<ApplicationProcessProps> = ({
 }) => {
   return (
     <section className='application-process-section'>
-      <h1
-        className={`application-process-section-title`}
-      >{`Application Process of ${solutionTitle}`}</h1>
+      <h1 className='application-process-section-title'>{`Application Process of ${solutionTitle}`}</h1>
 
       <div className='application-process-section-content'>
         {applicationProcessContent.map((item, index) => (
