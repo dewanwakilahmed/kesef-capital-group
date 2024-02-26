@@ -1,0 +1,28 @@
+.use-cases-section {
+  @apply section
+  section-dark;
+}
+
+.use-cases-section-title {
+  @apply section-title
+  section-title-dark;
+}
+
+.use-cases-section-content {
+  @apply section-content;
+}
+
+.use-cases-item {
+  @apply card
+  card-dark;
+}
+
+.use-cases-item-title {
+  @apply card-title
+  card-title-dark;
+}
+
+.use-cases-item-description {
+  @apply card-description
+  card-description-dark;
+}
