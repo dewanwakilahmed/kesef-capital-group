@@ -14,6 +14,7 @@ import BenefeitsOfFundingSolution from '@/sections/our-funding-solutions/funding
 import UseCasesOfFundingSolutionSection from '@/sections/our-funding-solutions/funding-solution/UseCasesOfFundingSolutionSection';
 import ConsiderationsSection from '../../../sections/our-funding-solutions/funding-solution/ConsiderationsSection';
 import EligibilityCriteriaSection from '@/sections/our-funding-solutions/funding-solution/EligibilityCriteriaSection';
+import ApplicationProcessSection from '@/sections/our-funding-solutions/funding-solution/ApplicationProcessSection';
 
 const FundingSolutionPage = () => {
   // Find funding solution from URL for the page
@@ -55,6 +56,10 @@ const FundingSolutionPage = () => {
       <EligibilityCriteriaSection
         solutionTitle={fundingSolution.name}
         eligibilityCriteriaContent={fundingSolution.eligibilityCriteria}
+      />
+      <ApplicationProcessSection
+        solutionTitle={fundingSolution.name}
+        applicationProcessContent={fundingSolution.applicationProcess}
       />
     </main>
   );

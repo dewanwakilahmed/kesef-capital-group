@@ -1,0 +1,17 @@
+.application-process-section {
+  @apply section
+  section-bg-gradient;
+}
+
+.application-process-title {
+  @apply section-title;
+}
+
+.application-process-content {
+}
+
+.application-process-item-title {
+}
+
+.application-process-item-description {
+}
