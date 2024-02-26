@@ -27,7 +27,7 @@ const ApplicationProcessSection: FC<ApplicationProcessProps> = ({
   return (
     <section className='application-process-section'>
       <h1
-        className={`application-process-title ${lato.className}`}
+        className={`application-process-title`}
       >{`Application Process of ${solutionTitle}`}</h1>
 
       <div className='application-process-content'>
