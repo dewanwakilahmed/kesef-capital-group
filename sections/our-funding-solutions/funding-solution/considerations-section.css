@@ -1,0 +1,17 @@
+.considerations-section {
+  @apply section
+  section-bg-gradient;
+}
+
+.considerations-title {
+  @apply section-title;
+}
+
+.considerations-content {
+}
+
+.considerations-item-title {
+}
+
+.considerations-item-description {
+}
