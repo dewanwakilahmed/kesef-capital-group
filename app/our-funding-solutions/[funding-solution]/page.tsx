@@ -11,6 +11,7 @@ import SolutionHeroSection from '@/sections/our-funding-solutions/funding-soluti
 import WhatIsFundingSolutionSection from '@/sections/our-funding-solutions/funding-solution/WhatIsFundingSolutionSection';
 import HowFundingSolutionWorks from '@/sections/our-funding-solutions/funding-solution/HowFundingSolutionWorks';
 import BenefeitsOfFundingSolution from '@/sections/our-funding-solutions/funding-solution/BenefitsOfFundingSolution';
+import UseCasesOfFundingSolutionSection from '@/sections/our-funding-solutions/funding-solution/UseCasesOfFundingSolutionSection';
 
 const FundingSolutionPage = () => {
   // Find funding solution from URL for the page
@@ -40,6 +41,10 @@ const FundingSolutionPage = () => {
       <BenefeitsOfFundingSolution
         fundingSolutionTitle={fundingSolution.name}
         BenefitsOfFundingSolutionContent={fundingSolution.benefits}
+      />
+      <UseCasesOfFundingSolutionSection
+        fundingSolutionTitle={fundingSolution.name}
+        useCasesOfFundingSolutionContent={fundingSolution.benefits}
       />
     </main>
   );
