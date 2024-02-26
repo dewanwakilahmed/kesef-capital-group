@@ -3,4 +3,16 @@
 @tailwind utilities;
 
 @layer components {
+  .section {
+    @apply px-10
+    py-6;
+  }
+
+  .section-bg-gradient {
+    @apply bg-gradient-to-br from-dark-gray to-medium-gray;
+  }
+
+  .section-title {
+    @apply text-center;
+  }
 }
