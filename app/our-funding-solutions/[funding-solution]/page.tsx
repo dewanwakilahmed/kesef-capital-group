@@ -33,7 +33,7 @@ const FundingSolutionPage = () => {
 
   return (
     <main className={`funding-solution-page ${fundingSolution.id}`}>
-      <SolutionHeroSection introduction={fundingSolution.intro} />
+      {/* <SolutionHeroSection introduction={fundingSolution.intro} />
       <WhatIsFundingSolutionSection
         fundingSolutionName={fundingSolution.name}
         whatIsFundingSolution={fundingSolution.whatIs}
@@ -57,15 +57,15 @@ const FundingSolutionPage = () => {
       <EligibilityCriteriaSection
         solutionTitle={fundingSolution.name}
         eligibilityCriteriaContent={fundingSolution.eligibilityCriteria}
-      />
+      /> */}
       <ApplicationProcessSection
         solutionTitle={fundingSolution.name}
         applicationProcessContent={fundingSolution.applicationProcess}
       />
-      <WhyChooseKCGSection
+      {/* <WhyChooseKCGSection
         solutionTitle={fundingSolution.name}
         whyChooseKCG={fundingSolution.whyChooseKCG}
-      />
+      /> */}
     </main>
   );
 };

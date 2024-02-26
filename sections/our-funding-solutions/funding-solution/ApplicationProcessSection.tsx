@@ -27,13 +27,14 @@ const ApplicationProcessSection: FC<ApplicationProcessProps> = ({
   return (
     <section className='application-process-section'>
       <h1
-        className={`application-process-title`}
+        className={`application-process-section-title`}
       >{`Application Process of ${solutionTitle}`}</h1>
 
-      <div className='application-process-content'>
+      <div className='application-process-section-content'>
         {applicationProcessContent.map((item, index) => (
           <div key={index} className='application-process-item'>
             <h2 className='application-process-item-title'>{item.title}</h2>
+
             <p className='application-process-item-description'>
               {item.description}
             </p>
