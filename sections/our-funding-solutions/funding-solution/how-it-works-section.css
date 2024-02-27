@@ -1,0 +1,28 @@
+.how-it-works-section {
+  @apply section
+  section-dark;
+}
+
+.how-it-works-section-title {
+  @apply section-title
+  section-title-dark;
+}
+
+.how-it-works-section-content {
+  @apply section-content;
+}
+
+.how-it-works-item {
+  @apply card
+  card-dark;
+}
+
+.how-it-works-item-title {
+  @apply card-title
+  card-title-dark;
+}
+
+.how-it-works-item-description {
+  @apply card-description
+  card-description-dark;
+}
