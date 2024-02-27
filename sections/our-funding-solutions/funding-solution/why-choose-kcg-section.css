@@ -1,10 +1,24 @@
 .why-choose-kcg-section {
-  @apply section;
+  @apply section
+  section-dark;
 }
 
-.why-choose-kcg-title {
-  @apply section-title;
+.why-choose-kcg-section-title {
+  @apply section-title
+  section-title-dark;
 }
 
-.why-choose-kcg-content {
+.why-choose-kcg-section-content {
+  @apply section-content
+  grid-cols-1;
+}
+
+.why-choose-kcg-item {
+  @apply card
+  card-dark;
+}
+
+.why-choose-kcg-item-description {
+  @apply card-description
+  card-description-dark;
 }

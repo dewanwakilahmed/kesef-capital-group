@@ -62,10 +62,10 @@ const FundingSolutionPage = () => {
         solutionTitle={fundingSolution.name}
         applicationProcessContent={fundingSolution.applicationProcess}
       />
-      {/* <WhyChooseKCGSection
+      <WhyChooseKCGSection
         solutionTitle={fundingSolution.name}
-        whyChooseKCG={fundingSolution.whyChooseKCG}
-      /> */}
+        whyChooseKCGContent={fundingSolution.whyChooseKCG}
+      />
     </main>
   );
 };
