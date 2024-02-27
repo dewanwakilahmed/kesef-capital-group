@@ -10,7 +10,7 @@ import FundingSolutionsContent from '@/public/content/our-funding-solutions/Fund
 import SolutionHeroSection from '@/sections/our-funding-solutions/funding-solution/SolutionHeroSection';
 import WhatIsFundingSolutionSection from '@/sections/our-funding-solutions/funding-solution/WhatIsFundingSolutionSection';
 import HowFundingSolutionWorks from '@/sections/our-funding-solutions/funding-solution/HowFundingSolutionWorks';
-import BenefeitsOfFundingSolution from '@/sections/our-funding-solutions/funding-solution/BenefitsOfFundingSolution';
+import BenefitsSection from '@/sections/our-funding-solutions/funding-solution/BenefitsSection';
 import UseCasesSection from '@/sections/our-funding-solutions/funding-solution/UseCasesSection';
 import ConsiderationsSection from '@/sections/our-funding-solutions/funding-solution/ConsiderationsSection';
 import EligibilityCriteriaSection from '@/sections/our-funding-solutions/funding-solution/EligibilityCriteriaSection';
@@ -42,10 +42,10 @@ const FundingSolutionPage = () => {
         fundingSolutionTitle={fundingSolution.name}
         howFundingSolutionWorksContent={fundingSolution.howItWorks}
       /> */}
-      {/* <BenefeitsOfFundingSolution
-        fundingSolutionTitle={fundingSolution.name}
-        BenefitsOfFundingSolutionContent={fundingSolution.benefits}
-      /> */}
+      <BenefitsSection
+        solutionTitle={fundingSolution.name}
+        benefitsContent={fundingSolution.benefits}
+      />
       <UseCasesSection
         solutionTitle={fundingSolution.name}
         useCasesContent={fundingSolution.useCases}

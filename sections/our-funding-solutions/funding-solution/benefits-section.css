@@ -1,0 +1,28 @@
+.benefits-section {
+  @apply section
+  section-light;
+}
+
+.benefits-section-title {
+  @apply section-title
+  section-title-light;
+}
+
+.benefits-section-content {
+  @apply section-content;
+}
+
+.benefits-item {
+  @apply card
+  card-light;
+}
+
+.benefits-item-title {
+  @apply card-title
+  card-title-light;
+}
+
+.benefits-item-description {
+  @apply card-description
+  card-description-light;
+}
