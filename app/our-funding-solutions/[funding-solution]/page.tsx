@@ -8,7 +8,7 @@ import FundingSolutionsContent from '@/public/content/our-funding-solutions/Fund
 
 // Section Imports
 import SolutionHeroSection from '@/sections/our-funding-solutions/funding-solution/SolutionHeroSection';
-import WhatIsFundingSolutionSection from '@/sections/our-funding-solutions/funding-solution/WhatIsFundingSolutionSection';
+import WhatIsItSection from '@/sections/our-funding-solutions/funding-solution/WhatIsItSection';
 import HowItWorksSection from '@/sections/our-funding-solutions/funding-solution/HowItWorksSection';
 import BenefitsSection from '@/sections/our-funding-solutions/funding-solution/BenefitsSection';
 import UseCasesSection from '@/sections/our-funding-solutions/funding-solution/UseCasesSection';
@@ -34,10 +34,10 @@ const FundingSolutionPage = () => {
   return (
     <main className={`funding-solution-page ${fundingSolution.id}`}>
       {/* <SolutionHeroSection introduction={fundingSolution.intro} /> */}
-      {/* <WhatIsFundingSolutionSection
-        fundingSolutionName={fundingSolution.name}
-        whatIsFundingSolution={fundingSolution.whatIs}
-      /> */}
+      <WhatIsItSection
+        solutionTitle={fundingSolution.name}
+        whatIsItContent={fundingSolution.whatIs}
+      />
       <HowItWorksSection
         solutionTitle={fundingSolution.name}
         howItWorksContent={fundingSolution.howItWorks}

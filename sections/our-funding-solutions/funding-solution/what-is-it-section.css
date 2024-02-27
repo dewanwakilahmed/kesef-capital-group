@@ -1,0 +1,24 @@
+.what-is-it-section {
+  @apply section
+  section-light;
+}
+
+.what-is-it-section-title {
+  @apply section-title
+  section-title-light;
+}
+
+.what-is-it-section-content {
+  @apply section-content
+  grid-cols-1;
+}
+
+.what-is-it-item {
+  @apply card
+  card-light;
+}
+
+.what-is-it-item-description {
+  @apply card-description
+  card-description-light;
+}
