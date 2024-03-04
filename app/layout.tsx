@@ -11,7 +11,9 @@ import HeaderSection from '@/sections/HeaderSection';
 import FooterSection from '@/sections/FooterSection';
 
 // Font Import
-const montserrat = Montserrat({ subsets: ['latin'] });
+const customFont = Montserrat({
+  subsets: ['latin'],
+});
 
 export const metadata: Metadata = {
   title: 'Kesef Capital Group',
@@ -25,8 +27,8 @@ interface RootLayoutProps {
 const RootLayout: FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang='en'>
-      <body className={montserrat.className}>
-        {/* <HeaderSection /> */}
+      <body className={customFont.className}>
+        <HeaderSection />
         {children}
         {/* <FooterSection /> */}
       </body>
