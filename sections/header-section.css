@@ -1,0 +1,91 @@
+.header-section {
+  @apply w-full
+  fixed
+  z-10
+  py-2.5
+  sm:py-3
+  md:py-4
+  lg:py-5
+  xl:py-6
+  2xl:py-7
+  px-3
+  sm:px-5
+  md:px-7
+  lg:px-9
+  xl:px-11
+  2xl:px-14;
+}
+
+.header-content {
+  @apply bg-neutral-950/85
+  grid
+  items-center
+  grid-cols-[auto,1fr]
+  mx-auto
+  py-4
+  sm:py-5
+  px-5
+  sm:px-6
+  rounded-full
+  max-w-screen-2xl;
+}
+
+.header-left {
+  @apply flex
+  items-center;
+}
+
+.side-menu-btn {
+  @apply text-neutral-50
+  hover:text-blue-700
+  text-3xl
+  mr-3
+  sm:mr-4
+  cursor-pointer
+  transition
+  xl:hidden;
+}
+
+.company-logo {
+  @apply text-neutral-50
+  text-4xl
+  font-bold;
+}
+
+.header-right {
+  @apply justify-self-end
+  xl:justify-self-auto
+  xl:flex
+  xl:items-center
+  xl:justify-between
+  xl:ml-16;
+}
+
+.navbar-left {
+  @apply hidden
+  xl:block;
+}
+
+.navbar-ul {
+  @apply flex
+  items-center
+  gap-4
+  md:gap-5;
+}
+
+.navbar-li {
+  @apply text-neutral-50
+  hover:text-blue-700
+  text-lg
+  cursor-pointer;
+}
+
+.company-phone-no {
+  @apply hidden
+  sm:block;
+}
+
+.msg-us-btn {
+  @apply hidden
+  md:block;
+}
