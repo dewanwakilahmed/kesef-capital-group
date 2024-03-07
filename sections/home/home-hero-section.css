@@ -19,7 +19,7 @@
   grid
   grid-cols-1
   lg:grid-cols-2
-  translate-y-10
+  /* translate-y-8 */
   xl:translate-y-14;
 }
 
