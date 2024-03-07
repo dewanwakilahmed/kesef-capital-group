@@ -19,7 +19,8 @@
   grid
   grid-cols-1
   lg:grid-cols-2
-  translate-y-14;
+  translate-y-10
+  xl:translate-y-14;
 }
 
 .text-content {
