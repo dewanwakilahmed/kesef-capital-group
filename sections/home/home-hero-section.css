@@ -1,5 +1,6 @@
 .home-hero-section {
-  @apply min-h-screen
+  @apply section
+  min-h-screen
   grid
   items-center
   justify-center
@@ -14,44 +15,57 @@
 }
 
 .home-hero-content {
-  @apply mx-auto 
+  @apply section-content
   grid
-  grid-cols-2
-  px-20;
+  grid-cols-1
+  lg:grid-cols-2
+  translate-y-14;
 }
 
 .text-content {
   @apply bg-neutral-950/85
   text-neutral-50
-  rounded-tl-3xl
-  rounded-bl-3xl
-  backdrop-blur-sm
-  p-10;
+  rounded-3xl
+  lg:rounded-tr-none
+  lg:rounded-br-none
+  shadow-md
+  backdrop-blur
+  p-5
+  sm:p-6
+  md:p-8
+  lg:p-10
+  xl:p-12
+  2xl:p-14
+  flex
+  flex-col
+  items-center
+  justify-center
+  lg:items-start;
 }
 
 .home-hero-headline {
-  @apply text-5xl
-  mb-4;
+  @apply text-4xl
+  lg:text-5xl
+  2xl:text-6xl
+  font-medium
+  text-center
+  lg:text-start
+  mb-3;
 }
 
 .home-hero-desc {
   @apply text-lg
-  mb-7;
-}
-
-.apply-now-btn {
-  @apply bg-blue-700
-  hover:bg-neutral-50
-  hover:text-blue-700
-  transition
-  rounded-3xl
-  py-2
-  px-4
-  font-medium;
+  2xl:text-xl
+  font-light
+  text-center
+  lg:text-start
+  mb-6;
 }
 
 .image-content {
-  @apply rounded-tr-3xl
+  @apply hidden
+  lg:block
+  rounded-tr-3xl
   rounded-br-3xl
   overflow-hidden;
 }
@@ -60,75 +74,3 @@
   @apply w-full
   h-full;
 }
-
-/* .home-hero-content {
-  @apply bg-neutral-200
-  backdrop-blur-sm
-  rounded-tr-3xl
-  rounded-bl-3xl
-  text-neutral-50
-  p-10
-  m-3;
-}
-
-.home-hero-headline {
-  @apply text-blue-700
-  text-center
-  text-lg
-  mb-2
-  font-bold
-  leading-5;
-}
-
-.home-hero-sub-headline {
-  @apply text-blue-600
-  text-center
-  text-base
-  font-semibold
-  leading-5
-  mb-4;
-}
-
-.home-hero-desc {
-  @apply text-gray-600
-  text-center
-  hidden;
-}
-
-.home-hero-cta {
-  @apply flex
-  flex-col
-  items-center
-  justify-center
-  gap-2;
-}
-
-.btn {
-  @apply rounded
-  whitespace-nowrap
-  w-min
-  py-1
-  px-3
-  text-sm
-  font-medium
-  shadow-sm
-  transition
-  border-2;
-}
-
-.btn-secondary {
-  @apply text-blue-700
-  bg-neutral-50
-  hover:bg-blue-700
-  hover:text-neutral-50
-  border-blue-700;
-}
-
-.btn-primary {
-  @apply bg-blue-700
-  text-neutral-50
-  border-blue-700
-  hover:bg-neutral-50
-  hover:text-blue-700
-  hover:border-neutral-50;
-} */

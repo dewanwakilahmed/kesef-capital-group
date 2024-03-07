@@ -40,7 +40,7 @@ const HeaderSection = () => {
           <nav className='navbar-right'>
             <ul className='navbar-ul'>
               <li className='navbar-li'>
-                <span className='company-phone-no'>(888) 269-4246</span>
+                <span className='company-phone-no'>(646) 403-4553</span>
               </li>
 
               <li className='navbar-li'>

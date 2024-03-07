@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 import './home-hero-section.css';
 
@@ -19,16 +20,18 @@ const HomeHeroSection = () => {
       <div className='home-hero-content'>
         <div className='text-content'>
           <h1 className='home-hero-headline'>
-            Small business lending made simple.
+            Small business lending made simple
           </h1>
 
           <p className='home-hero-desc'>
-            Optimize your cash flow and manage expenses with a revolving line of
-            credit up to $150,000. Apply today without impacting your credit
-            score.
+            Join thousands of businesses that have simplified financing, boosted
+            sales, and improved the customer experience. Increase your bottom
+            line — one moment at a time
           </p>
 
-          <button className='apply-now-btn'>Apply Now</button>
+          <button className='home-hero-cta btn btn-primary'>
+            <Link href='/apply-now'>Apply Now</Link>
+          </button>
         </div>
 
         <div className='image-content'>
@@ -41,32 +44,6 @@ const HomeHeroSection = () => {
           />
         </div>
       </div>
-
-      {/* <div className='home-hero-content'>
-        <h1 className='home-hero-headline'>
-          Empower Your Business with Alternative Financing Solutions
-        </h1>
-        <h2 className='home-hero-sub-headline'>
-          Flexible, Fast, and Tailored Funding for Small Businesses and Startups
-        </h2>
-        <p className='home-hero-desc'>
-          At Kesef Capital Group, we understand that each business has unique
-          financial needs. That's why we offer a wide range of alternative
-          financing options designed to boost your cash flow and working capital
-          without the constraints of traditional bank loans. From unsecured
-          business funding to quick business loans, our goal is to help you
-          navigate your business's financial journey with ease and confidence.
-          Whether you're looking to get a business loan with no credit check,
-          secure startup business funding, or explore the best small business
-          loans for startups, our expert team is here to guide you every step of
-          the way
-        </p>
-
-        <div className='home-hero-cta'>
-          <button className='btn btn-secondary'>Explore Funding</button>
-          <button className='btn btn-primary'>Get Funded</button>
-        </div>
-      </div> */}
     </section>
   );
 };

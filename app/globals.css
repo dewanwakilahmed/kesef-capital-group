@@ -4,19 +4,29 @@
 
 @layer components {
   .section {
-    @apply px-6
-    sm:px-8
-    md:px-10
-    lg:px-12
-    xl:px-14
-    2xl:px-16
-    py-10
-    sm:py-12
-    md:py-14
-    lg:py-16
-    xl:py-20
-    2xl:py-24
-    text-center;
+    @apply py-2.5
+    sm:py-3
+    md:py-4
+    lg:py-5
+    xl:py-6
+    2xl:py-7
+    px-3
+    sm:px-5
+    md:px-7
+    lg:px-9
+    xl:px-11
+    2xl:px-14;
+  }
+
+  .section-content {
+    @apply mx-auto
+    py-4
+    md:py-5
+    xl:py-6
+    px-5
+    md:px-6
+    xl:px-7
+    max-w-screen-2xl;
   }
 
   .section-light {
@@ -49,20 +59,6 @@
 
   .section-title-dark {
     @apply text-neutral-200;
-  }
-
-  .section-content {
-    @apply grid
-    grid-cols-1
-    md:grid-cols-2
-    gap-4
-    sm:gap-6
-    md:gap-8
-    lg:gap-10
-    xl:gap-12
-    2xl:gap-14
-    max-w-screen-2xl
-    mx-auto;
   }
 
   .card {
